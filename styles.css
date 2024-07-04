@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -23,7 +29,10 @@
     justify-content: space-around;
     gap: 5px;
     background-color: #1F2937;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     height: 300px;
     align-items: center;
 }
@@ -40,7 +49,7 @@
 }
 
 .image {
-    width: 800px;
+    width: auto;
     height: 230px;
     margin-left: 50px;
 }
@@ -75,33 +84,30 @@
     flex: 1;
     gap: 30px;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 .imageOne {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
 .imageTwo {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
 .imageThree {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
 .imageFour {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
 }
 
@@ -124,7 +130,6 @@ h2 {
 .boxOne {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
     text-align: center;
 }
@@ -132,7 +137,6 @@ h2 {
 .boxTwo {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
     text-align: center;
 }
@@ -140,7 +144,6 @@ h2 {
 .boxThree {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
     text-align: center;
 }
@@ -148,7 +151,6 @@ h2 {
 .boxFour {
     width: 100px;
     height: 100px;
-    border: 3px solid #3882F6;
     border-radius: 8px;
     text-align: center;
 }
